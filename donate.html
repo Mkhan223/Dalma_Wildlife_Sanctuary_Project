@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dalma Wildlife Sanctuary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div>
+            <img class="dalma-img" src="images/Entry_gate_Dalma_Wildlife.jpg" alt="">
+        </div>
+        <h1 class="title">Dalma Wildlife Sanctuary</h1>
+    </header>
+    
+    
+    <nav>
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Animal</a></li>
+        <li><a href="#">Sanctuary</a></li>
+        <li><a href="donate.html">Donate</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        
+        <section class="donate-section">
+            <div>
+                <h1 class="donate">Why donate</h1>
+                <p>
+                Donating to the Dalma Wildlife Sanctuary is a powerful and meaningful way to contribute to the preservation of our planet's precious biodiversity. This sanctuary stands as a vital refuge for a wide array of wildlife species, providing them with a safe haven to thrive in their natural habitats. By supporting Dalma, you are directly investing in the conservation and protection of diverse ecosystems, ranging from lush forests to crucial wetlands and grasslands. Your donation aids in crucial initiatives such as habitat restoration, wildlife rehabilitation, and conservation research, all of which are instrumental in maintaining ecological balance. Furthermore, your generosity helps fund educational programs, enabling the sanctuary to educate the public about the significance of wildlife conservation. By donating to Dalma Wildlife Sanctuary, you are contributing to the broader effort to safeguard our planet's rich natural heritage for future generations, ensuring that these invaluable ecosystems and their inhabitants continue to flourish and inspire awe for years to come. Your support makes a tangible difference in the fight to preserve our world's irreplaceable natural treasures.
+                </p>
+            </div>
+            <h3 class="form-title">Join Us in Protecting Wildlife</h3>
+            <div>
+                
+                <form action="https://aq3m1uypll.execute-api.eu-west-1.amazonaws.com/api/donate" method="post">
+                   
+                    <label for="fullName">Full Name:</label>
+                    <input class="input-text" type="text" name="fullName" id="fullName">
+                    <label for="emailAddress">Email Address:</label>
+                    <input class="input-text"   type="email" name="emailAddress" id="emailAddress">
+                    <label for="mobileNumber">Mobile Number:</label>
+                    <input class="input-text"  type="tel" name="mobileNumber" id="mobileNumber">
+                    <label for="">Are You Over 18?:</label>
+                    <div class="radio-container">
+                        <label for="yes">Yes</label>
+                        <input type="radio" name="over18" id="yes">
+                    </div>
+                    <div class="radio-container">
+                        <label for="no">No</label>
+                        <input type="radio" name="over18" id="no">
+                    </div>
+                    <h4>Share Your Thoughts and Support</h4>
+                    <textarea class="comment-box" name="" id="" cols="55" rows="15"></textarea>
+                    <input class="submit-btn" type="submit" value="Donate Now">
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p class="footer">&copy; Dalma Wildlife Sanctuary 2023</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,297 @@
+
+/* This is universal selector  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    max-width: auto;
+}
+/* index page style starts here */
+
+body {
+    background-color:#f2f8fe; 
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#f2f8fe;
+}
+.dalma-img{
+   width: 800px;
+   height: 400px;
+   
+}
+/* This is an example fo class selector */
+
+.title{
+    font: bolder;
+    font-size: 40px;
+    color: darkcyan;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:10px 0px 10px 0px;
+    letter-spacing: 12px;
+  
+}
+nav ul{
+    display: flex;
+    gap: 120px;
+    list-style: none;
+}
+ul a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    letter-spacing: 1px;
+    
+}
+
+nav{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: darkcyan;
+}
+
+main{
+    width: 85%;
+    padding: 0px 30px 0px 30px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+article h2{
+   text-align: center;
+   padding: 50px 0px 15px 0px;
+   font-style: italic;
+   letter-spacing: 5px;
+}
+article q{
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 18px;
+    font-weight: lighter;
+}
+p{
+    text-align: justify;
+    padding-bottom: 15px;
+    font-size: 17px;
+    line-height: 1.7;
+    color: #213343;
+}
+
+article h3{
+    font-style: italic;
+    letter-spacing: 5px;
+    padding-bottom: 3px;
+}
+/* this is id selector with padding and margin */
+#panda-image-description{
+    padding-left: 30px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+.panda-img{
+    width: 360px;
+    height: 300px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    object-fit: content;
+}
+.gallery{
+ display: flex;
+    justify-content: space-between;
+    
+}
+hr{
+    width: auto;
+    height: 3px;
+    background-color: black;
+    margin-bottom: 4px;
+}
+
+.visit-link{
+    margin-top: 15px;
+    font-style: normal;
+    text-align: center;
+    padding-bottom: 25px;
+}
+  .visit-link a{
+    text-decoration: none;
+    color:blue;
+    font-weight: 700;
+    letter-spacing:1px;
+    transition:background-color 1s,color 1s;
+    
+ }
+
+  .visit-link a:hover{
+    color: #FFFFFF;
+    background-color: purple;
+    padding: 5px 10px;
+    
+
+}
+/* this is an example of flexbox */
+.card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 1px 0 10px rgba(0, 0, 0, 0.5);
+    font-style: italic;
+    letter-spacing: 5px;
+    background-color: whitesmoke;
+}
+.card ul>li{
+   list-style: square;
+    line-height: 2;
+    text-align: left;
+}
+/* This is an example of Descendant selector */
+.card ul span{
+    font-size: 14px;
+    font-weight: 500;
+}
+.card h5{
+    letter-spacing: 1.5px;
+}
+.card h3{
+    text-align: center;
+    padding: 10px 0px 10px 0px ;
+    font-size: 20px;
+}
+table>caption{
+    font-weight: bolder;
+    font-style: italic;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+table {
+    margin-top: 80px;
+    border-collapse: collapse;
+    width: 90%;
+    background-color:whitesmoke;
+    border-radius: 8px;
+    box-shadow: 1px 0 10px rgba(0, 0, 0, 0.5);
+   
+  }
+  /* this is an example of group element selector */
+  th, td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+  }
+  th {
+   font-style: italic;
+   letter-spacing: 2px;
+    background-color:darkcyan;
+    color:#ffffff;
+  }
+  .table-section{
+    padding-bottom: 50px;
+  }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 50px;
+    background-color: darkcyan;
+    color: #ffffff;
+    font-size: 20px;
+    font-style: italic;
+    padding-bottom: 0;
+    font-weight: bold;
+    letter-spacing: 5px;
+  }
+  
+/* Donation Page Styling Starts Here */
+.donate-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.donate{
+    font-size: 30px;
+    font-weight: 900;
+    text-align: left;
+    padding: 30px 0px 10px 0px;
+    font-style: italic;
+    letter-spacing: 5px;
+    text-transform:capitalize;
+}
+.form-title{
+    margin-top: 50px;
+    font-style: italic;
+    letter-spacing: 3px;
+
+}
+
+form{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+    box-shadow: 0 0 10px lightgray;
+    padding: 30px 20px 30px 20px;
+    border-radius: 10px;
+    background-color: #008b8b;
+}
+.input-text{
+    width: 385px;
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: whitesmoke;
+}
+label{
+    width: 385px;
+    display: block;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+form h4{
+    margin-top: 10px;
+    font-style: italic;
+    letter-spacing: 3px;
+    text-align: left;
+    color: #FFFFFF ;
+}
+.comment-box{
+    margin-top: 5px;
+    background-color: whitesmoke;
+    
+}
+input[type="text"], input[type="email"], input[type="tel"],textarea {
+    border: none;
+    outline: none;
+     
+  }
+.submit-btn{
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #FFFFFF ;
+    border-style: none;
+    color: black;
+    font-weight: 800;
+    font-size: 14px;
+    transition: background-color 1s,color 1s;
+}
+
+.submit-btn:hover{
+    background-color:purple;
+    color: #FFFFFF;
+}
